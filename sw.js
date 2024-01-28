@@ -20,8 +20,8 @@ self.addEventListener('install', event => {
         const cache = await caches.open(CACHE_NAME);
         cache.addAll([
             '/',
-            '/assets//app.js',
-            '/assets//style.css'
+            '/assets/js/app.js',
+            '/assets/css/style.css'
         ]);
     })());
 });
