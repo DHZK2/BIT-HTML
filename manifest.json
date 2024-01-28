@@ -1,0 +1,18 @@
+{
+    "lang": "en-us",
+    "name": "My PWA",
+    "short_name": "myPWA",
+    "description": "a test workin with a PWA",
+    "start_url": "/",
+    "background_color": "#280751",
+    "theme_color": "#280751",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/assets/img/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
