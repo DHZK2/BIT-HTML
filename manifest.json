@@ -3,7 +3,7 @@
     "name": "My PWA",
     "short_name": "myPWA",
     "description": "a test workin with a PWA",
-    "start_url": "/",
+    "start_url": "https://davidevk2.github.io/PruebaPWA/",
     "background_color": "#280751",
     "theme_color": "#280751",
     "orientation": "any",
