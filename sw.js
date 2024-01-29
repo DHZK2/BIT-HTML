@@ -1,6 +1,6 @@
 const CACHE_NAME = `MYPWA-v1`;
 
-let GHPATH = "https://davidevk2.github.io/PruebaPWA/";
+let GHPATH = "/PruebaPWA/";
 
 let APP_PREFIX = "MYAPP";
 let VERSION  = "version_01";
@@ -20,8 +20,8 @@ self.addEventListener('install', event => {
         const cache = await caches.open(CACHE_NAME);
         cache.addAll([
             '/',
-            '/assets/js/app.js',
-            '/assets/css/style.css'
+            './assets/js/app.js',
+            './assets/css/style.css'
         ]);
     })());
 });
