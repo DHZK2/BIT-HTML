@@ -1,6 +1,6 @@
 const CACHE_NAME = `MYPWA-v1`;
 
-let GHPATH = "/PruebaPWA/";
+let GHPATH = "/PruebaPWA";
 
 let APP_PREFIX = "MYAPP";
 let VERSION  = "version_01";
@@ -43,6 +43,7 @@ self.addEventListener('fetch', event => {
                 cache.put(event.request, fetchResponse.clone());
                 return fetchResponse;
             } catch (e) {
+                console.log("was there an error:", e);
                 // The network failed.
             }
         }
